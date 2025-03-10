@@ -1,0 +1,3 @@
+C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++\ext\pb_ds\detail\resize_policy\
+hash_standard_resize_policy_imp.hpp0000644
+remove-0000644 and save change
