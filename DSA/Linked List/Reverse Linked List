@@ -1,0 +1,17 @@
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev = NULL;
+        ListNode* cur = head;
+        ListNode* next = NULL;
+
+        while(cur != NULL) {
+            next = cur->next; // store next pointer
+            cur->next = prev; // break next connection and build new
+
+            prev = cur; // update prev 
+            cur = next; // update current
+        }
+        return prev; // prev is point to head at the end
+    }
+};
